@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/eu-pesticides",
   "title": "Eu Pesticides",
   "description": "eu-pesticides -- EU approval status of pesticide active substances.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/eu-pesticides",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-eu-pesticides",

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-eu-pesticides",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "eu-pesticides -- EU approval status of pesticide active substances.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-eu-pesticides": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "eu-pesticides"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-eu-pesticides.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/eu-pesticides",
   "pipeworx": {
-    "sourceHash": "v1-87df06bfb4688de2fc85cc6fe4cfbd58e20ccb5e2dc8d699dcca18cd68c61e77",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "eu-pesticides",
+    "gatewaySlug": "eu-pesticides",
+    "sourceHash": "v1-4aa7e9a8d787dac39897944e5b7f14b229e1420541718b5536558c8a7bb4e217",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
