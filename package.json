@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-eu-pesticides",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "eu-pesticides -- EU approval status of pesticide active substances.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "eu-pesticides",
     "gatewaySlug": "eu-pesticides",
-    "sourceHash": "v1-4aa7e9a8d787dac39897944e5b7f14b229e1420541718b5536558c8a7bb4e217",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-fbdf96fe5e838a0969612521ef394ad8c40670d4a2e1a9a2fe6ef8153f94cf84",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
